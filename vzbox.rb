@@ -3,10 +3,10 @@ require_relative "private_strategy"
 class Vzbox < Formula
   desc "vzbox"
   homepage "https://github.com/babelcloud/vzbox"
-  version "v0.2.6"
+  version "v0.3.0"
   url "https://github.com/babelcloud/vzbox/releases/download/#{version}/vzbox",
       using: GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "46ef05da7b1b95be99861f9ffa8f6d47ae24d018185333f460224576e18f9bb8"
+  sha256 "003a0c62a6d16f5592fffbbff2f508878d24eabe487790f13df43924688b4de8"
 
   depends_on "qemu"
 
