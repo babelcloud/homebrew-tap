@@ -3,10 +3,10 @@ require_relative "private_strategy"
 class OciMirror < Formula
   desc "oci-mirror"
   homepage "https://github.com/babelcloud/oci-mirror"
-  version "v0.1.1"
+  version "v0.1.2"
   url "https://github.com/babelcloud/oci-mirror/releases/download/#{version}/oci-mirror",
       using: GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "5bb33260b7a0cff1a1d0778d7f2509a136c5a678d1becb3c848f0c498d925009"
+  sha256 "44d8c3ff5963161d9479a79b57a6cfcc6b31ee19e01898d16fbbf1815721cd8d"
 
   on_macos do
     depends_on :macos => :sequoia
